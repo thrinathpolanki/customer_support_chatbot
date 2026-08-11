@@ -1,0 +1,21 @@
+[
+  {"text": "hey, good morning!", "intent": "greeting"},
+  {"text": "alright, I'm heading out, bye", "intent": "goodbye"},
+  {"text": "thanks a bunch for your help", "intent": "thanks"},
+  {"text": "can you tell me where my package currently is", "intent": "order_status"},
+  {"text": "I never got my tracking number, where's my order", "intent": "order_status"},
+  {"text": "how much does express delivery cost", "intent": "shipping_info"},
+  {"text": "do you deliver outside the US", "intent": "shipping_info"},
+  {"text": "I'd like to send this back, what's the process", "intent": "return_policy"},
+  {"text": "can I get an exchange instead of a return", "intent": "return_policy"},
+  {"text": "still haven't received money back for my return", "intent": "refund_request"},
+  {"text": "please refund me immediately", "intent": "refund_request"},
+  {"text": "why was I billed two times for one order", "intent": "payment_issue"},
+  {"text": "my card got declined but money left my account", "intent": "payment_issue"},
+  {"text": "what fabric is used in this jacket", "intent": "product_info"},
+  {"text": "is the blue version of this in stock", "intent": "product_info"},
+  {"text": "I got a completely different item than what I ordered", "intent": "complaint"},
+  {"text": "extremely disappointed, my item came broken", "intent": "complaint"},
+  {"text": "let me talk to a real support agent please", "intent": "human_agent"},
+  {"text": "put me through to a person now", "intent": "human_agent"}
+]
