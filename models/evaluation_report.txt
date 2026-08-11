@@ -1,0 +1,36 @@
+=== Intent Classifier Evaluation Report ===
+Test samples: 19
+Accuracy: 94.74%
+Average confidence: 59.88%
+
+Classification Report:
+                precision    recall  f1-score   support
+
+     complaint       1.00      1.00      1.00         2
+       goodbye       1.00      1.00      1.00         1
+      greeting       1.00      1.00      1.00         1
+   human_agent       1.00      1.00      1.00         2
+  order_status       1.00      1.00      1.00         2
+ payment_issue       1.00      1.00      1.00         2
+  product_info       1.00      1.00      1.00         2
+refund_request       0.67      1.00      0.80         2
+ return_policy       1.00      0.50      0.67         2
+ shipping_info       1.00      1.00      1.00         2
+        thanks       1.00      1.00      1.00         1
+
+      accuracy                           0.95        19
+     macro avg       0.97      0.95      0.95        19
+  weighted avg       0.96      0.95      0.94        19
+
+Confusion Matrix (rows=true, cols=predicted):
+[[2 0 0 0 0 0 0 0 0 0 0]
+ [0 1 0 0 0 0 0 0 0 0 0]
+ [0 0 1 0 0 0 0 0 0 0 0]
+ [0 0 0 2 0 0 0 0 0 0 0]
+ [0 0 0 0 2 0 0 0 0 0 0]
+ [0 0 0 0 0 2 0 0 0 0 0]
+ [0 0 0 0 0 0 2 0 0 0 0]
+ [0 0 0 0 0 0 0 2 0 0 0]
+ [0 0 0 0 0 0 0 1 1 0 0]
+ [0 0 0 0 0 0 0 0 0 2 0]
+ [0 0 0 0 0 0 0 0 0 0 1]]
