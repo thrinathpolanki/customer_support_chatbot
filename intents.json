@@ -1,0 +1,159 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi", "hello", "hey there", "good morning", "good afternoon",
+        "is anyone there", "hey", "what's up", "howdy", "greetings",
+        "hi there, I need help", "hello, can you assist me"
+      ],
+      "responses": [
+        "Hello! Welcome to our support center. How can I help you today?",
+        "Hi there! I'm your virtual support assistant. What can I do for you?",
+        "Hey! Thanks for reaching out. How can I assist you today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye", "goodbye", "see you later", "talk to you later", "I'm done",
+        "that's all thanks", "have a good day", "quit", "exit", "close chat"
+      ],
+      "responses": [
+        "Goodbye! Feel free to come back if you need anything else.",
+        "Take care! We're here 24/7 if you need us again.",
+        "Thanks for chatting with us. Have a great day!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thank you", "thanks a lot", "thanks so much", "appreciate it",
+        "that helped, thanks", "great, thank you", "awesome thanks",
+        "thanks for the help"
+      ],
+      "responses": [
+        "You're very welcome! Is there anything else I can help with?",
+        "Happy to help! Let me know if you need anything else.",
+        "Anytime! Feel free to ask if anything else comes up."
+      ]
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "where is my order", "track my order", "what's the status of my order",
+        "order status", "has my order shipped", "when will my order arrive",
+        "I want to track my package", "check order status for ORD12345",
+        "my order hasn't arrived yet", "order tracking information",
+        "can you tell me where my package is"
+      ],
+      "responses": [
+        "Sure, I can help with that! Your order {order_id} is currently being processed. You'll receive a tracking link by email once it ships.",
+        "Let me check that for you — order {order_id} is on its way and should arrive within 3-5 business days.",
+        "I can see order {order_id} in our system. It's currently in transit and on schedule for delivery."
+      ]
+    },
+    {
+      "tag": "shipping_info",
+      "patterns": [
+        "what are your shipping options", "how much is shipping",
+        "do you ship internationally", "shipping cost", "delivery time",
+        "how long does shipping take", "do you offer express shipping",
+        "shipping policy", "when will my order ship", "free shipping details"
+      ],
+      "responses": [
+        "We offer standard shipping (5-7 business days, free over $50) and express shipping (2-3 business days, $12.99).",
+        "Standard delivery takes 5-7 business days. We also ship internationally to over 40 countries!",
+        "Shipping is free on orders over $50. Express options are available at checkout for faster delivery."
+      ]
+    },
+    {
+      "tag": "return_policy",
+      "patterns": [
+        "what is your return policy", "can I return an item",
+        "how do returns work", "return policy details", "can I exchange an item",
+        "how many days do I have to return something",
+        "is there a restocking fee", "return window"
+      ],
+      "responses": [
+        "You can return any item within 30 days of delivery for a full refund, as long as it's unused and in original packaging.",
+        "Our return policy allows returns within 30 days. Just initiate a return from your order history page and we'll email a prepaid label.",
+        "Returns are free within 30 days of purchase. Exchanges are also available for a different size or color."
+      ]
+    },
+    {
+      "tag": "refund_request",
+      "patterns": [
+        "I want a refund", "how do I get my money back", "refund status",
+        "when will I get my refund", "I need a refund for my order",
+        "process my refund", "refund not received", "cancel my order and refund me"
+      ],
+      "responses": [
+        "I'm sorry for the inconvenience. Refunds for order {order_id} typically take 5-7 business days to appear on your statement once processed.",
+        "I can start that refund for order {order_id} right away. You'll get a confirmation email once it's issued.",
+        "Refunds are processed within 3-5 business days after we receive the returned item, and usually take 5-7 days to reflect in your account."
+      ]
+    },
+    {
+      "tag": "payment_issue",
+      "patterns": [
+        "my payment failed", "I was charged twice", "payment not going through",
+        "billing issue", "I see a duplicate charge", "card declined",
+        "wrong amount charged", "payment error at checkout",
+        "I need help with billing"
+      ],
+      "responses": [
+        "I'm sorry about that! Duplicate or failed charges are usually reversed automatically within 3-5 business days by your bank.",
+        "That sounds frustrating — let's fix it. Could you share the order ID so I can look into the charge for you?",
+        "Payment issues are usually resolved within a few business days. I've flagged your account for our billing team to review."
+      ]
+    },
+    {
+      "tag": "product_info",
+      "patterns": [
+        "tell me about this product", "what materials is this made of",
+        "is this product available in other colors", "product specifications",
+        "does this come with a warranty", "size guide", "product dimensions",
+        "is this item in stock"
+      ],
+      "responses": [
+        "Great question! You can find full specifications, materials, and size guides on the product page under the 'Details' tab.",
+        "Most of our products come with a 1-year manufacturer warranty. Check the product page for specific details.",
+        "That item is currently in stock and available in multiple colors — check the product page for live availability."
+      ]
+    },
+    {
+      "tag": "complaint",
+      "patterns": [
+        "I'm very unhappy with my order", "this product is defective",
+        "I received a damaged item", "this is unacceptable",
+        "terrible experience", "the wrong item was sent to me",
+        "my order arrived broken", "I want to file a complaint"
+      ],
+      "responses": [
+        "I'm really sorry to hear that. That's not the experience we want for you — let's make it right. Can you share your order ID?",
+        "I apologize for the trouble. I've logged this as a priority issue and a specialist will follow up within 24 hours.",
+        "That's absolutely not okay, and I'm sorry. I can offer a replacement or full refund — which would you prefer?"
+      ]
+    },
+    {
+      "tag": "human_agent",
+      "patterns": [
+        "I want to talk to a human", "connect me to an agent",
+        "can I speak to a real person", "transfer me to support staff",
+        "this isn't helping, get me a human", "I need a live agent",
+        "escalate this to a person"
+      ],
+      "responses": [
+        "Of course — I'm connecting you to a human support agent now. Estimated wait time is under 5 minutes.",
+        "No problem, escalating this to our support team right away. Someone will be with you shortly.",
+        "Understood. I'm transferring this conversation to a live agent now."
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": []
+    }
+  ]
+}
