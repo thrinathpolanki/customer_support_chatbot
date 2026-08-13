@@ -10,12 +10,12 @@
 ![HuggingFace](https://img.shields.io/badge/🤗%20Transformers-FLAN--T5-FFD21E?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-![GitHub last commit](https://img.shields.io/github/last-commit/thrinathpolanki/customer-support-chatbot?style=flat-square&color=blueviolet)
-![GitHub repo size](https://img.shields.io/github/repo-size/thrinathpolanki/customer-support-chatbot?style=flat-square&color=orange)
-![GitHub stars](https://img.shields.io/github/stars/thrinathpolanki/customer-support-chatbot?style=flat-square&color=yellow)
-![GitHub forks](https://img.shields.io/github/forks/thrinathpolanki/customer-support-chatbot?style=flat-square&color=blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/thrinathpolanki/customer_support_chatbot?style=flat-square&color=blueviolet)
+![GitHub repo size](https://img.shields.io/github/repo-size/thrinathpolanki/customer_support_chatbot?style=flat-square&color=orange)
+![GitHub stars](https://img.shields.io/github/stars/thrinathpolanki/customer_support_chatbot?style=flat-square&color=yellow)
+![GitHub forks](https://img.shields.io/github/forks/thrinathpolanki/customer_support_chatbot?style=flat-square&color=blue)
 
-![Visitor Count](https://komarev.com/ghpvc/?username=thrinathpolanki&repo=customer-support-chatbot&label=Repo+Views&color=6366F1&style=flat-square)
+![Visitor Count](https://komarev.com/ghpvc/?username=thrinathpolanki&repo=customer_support_chatbot&label=Repo+Views&color=6366F1&style=flat-square)
 
 </div>
 
@@ -167,8 +167,8 @@ Follow these commands **exactly**, in order, after cloning/pulling the repo to y
 ### 1️⃣ Clone the repository
 
 ```powershell
-git clone https://github.com/thrinathpolanki/customer-support-chatbot.git
-cd customer-support-chatbot
+git clone https://github.com/thrinathpolanki/customer_support_chatbot.git
+cd customer_support_chatbot
 ```
 
 ### 2️⃣ Create a virtual environment (Python 3.11 recommended)
